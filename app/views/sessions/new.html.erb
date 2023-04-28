@@ -1,3 +1,6 @@
+<% flash.each do |key, value| %>
+  <%= value %>
+<% end %>
 <%= form_with url: login_path, scope: :user do |form| %>
   <div>
     <%= form.label :email %>

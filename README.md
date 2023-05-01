@@ -1,6 +1,6 @@
 # README
 
-Rails authentication from scratch without relying on any gem dependencies
+Rails authentication built from scratch without relying on any gem dependencies
 
 Includes:
 - Sign up

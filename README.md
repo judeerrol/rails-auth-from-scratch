@@ -11,3 +11,4 @@ Includes:
 - Cookies
 - Update email and password
 - Reset password
+- Track login count, timestamps and IP address

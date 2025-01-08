@@ -19,6 +19,9 @@ class ActiveSessionsController < ApplicationController
     end
   end
 
+  def empty_func
+  end
+
   def destroy_all
     forget_active_session
     current_user.active_sessions.destroy_all

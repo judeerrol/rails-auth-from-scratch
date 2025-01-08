@@ -2,6 +2,9 @@ class ActiveSessionsController < ApplicationController
   before_action :authenticate_user!
 
   def destroy
+    # Test change #1
+    # Test change #2
+    # Test change #3
     # Test change #4
     @active_session = current_user.active_sessions.find(params[:id])
 
@@ -14,6 +17,9 @@ class ActiveSessionsController < ApplicationController
       reset_session
       redirect_to root_path, notice: "Signed out."
     end
+  end
+
+  def empty_func
   end
 
   def destroy_all

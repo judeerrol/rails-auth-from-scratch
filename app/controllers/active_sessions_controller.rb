@@ -2,7 +2,7 @@ class ActiveSessionsController < ApplicationController
   before_action :authenticate_user!
 
   def destroy
-    # Test change
+    # Test change #2
     @active_session = current_user.active_sessions.find(params[:id])
 
     @active_session.destroy
